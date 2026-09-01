@@ -1,5 +1,5 @@
 const UserModel = require("../models/user.model");
-const { getUserDataById } = require("../modules/auth/auth.service");
+const { getUserDataById } = require("../module/auth/auth.service");
 const apiError = require("../utils/apiError");
 const apiResponse = require("../utils/apiResponse");
 const asyncHandler = require("../utils/asyncHandler");
